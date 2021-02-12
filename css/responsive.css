@@ -1,0 +1,21 @@
+@media(min-width:600px) and (max-width: 1000px){
+    body{
+        display:grid;
+        grid-template-columns: repeat(8,1fr);
+        grid-template-rows:0.5fr 5fr 0.5fr;
+        grid-template-areas: 
+        "hd hd hd hd hd hd hd hd"
+        "main main main main main main main main"
+        "ft ft ft ft ft ft ft ft";
+      }
+    }
+    @media(min-width:1001px){
+    body{
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows:0.5fr 5fr 0.5fr;
+        grid-template-areas: 
+        "hd hd hd hd hd hd hd hd"
+        "main main main main main main main main"
+        "ft ft ft ft ft ft ft ft";
+      }
+    }
